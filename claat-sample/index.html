@@ -1,0 +1,66 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Unityで予測変換が出ないときの対処法</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id="claat-sample"
+                  title="Unityで予測変換が出ないときの対処法"
+                  environment="web"
+                  feedback-link="https://github.com/KazukiOtomo/ClaatSample">
+    
+      <google-codelab-step label="①ダウンロードの確認" duration="0">
+        <p><strong>まず、Visual StudioにUnityのアセンブラが入っているか確認します</strong></p>
+<p class="image-container"><img style="width: 574.82px" src="img\\ba08ac247c4e6722.png"></p>
+<p><strong>Visual Studioを起動すると、上記の画面になるので、</strong></p>
+<p><strong>「新しいプロジェクトの続行」を押します。</strong></p>
+<p class="image-container"><img style="width: 601.70px" src="img\\d72e682802f60a62.png"></p>
+<p><strong>すると、上のような画面になり、右側のリストの下の方にある</strong></p>
+<p><strong>「さらにツールと機能をインストールする」を押します。</strong></p>
+<p class="image-container"><img style="width: 601.70px" src="img\\56ce1c32cce56b7e.png"></p>
+<p><strong>Visual Studio Installerが開くので、「変更」を押します。</strong></p>
+<p class="image-container"><img style="width: 601.70px" src="img\\d0c4e91b9b2075f7.png"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="②Unity側で開くアプリの設定" duration="0">
+        <p><strong>次に、Unity側の設定を行います。 デフォルトでは間違ったアプリを開くので、気を付けましょう。</strong></p>
+<p class="image-container"><img style="width: 601.70px" src="img\\9f4d463f560e599c.png"></p>
+<p><strong>Unityを起動し、「Edit」-&gt;「Preferences」を選択します。</strong></p>
+<p class="image-container"><img style="width: 601.70px" src="img\\1e26a65f93201f13.png"></p>
+<p><strong>このようなタブが開くので、「External Tools」を選択し、 一番上のプルダウンの項目を、Visual Studio に変更すると、 予測変換が出るようになります。</strong></p>
+<p><strong>（デフォルトでは、Open by Extensionになっています）</strong></p>
+<p><strong>以上で設定は終了です。 お疲れさまでした！</strong></p>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/codelab-elements/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/prettify.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>

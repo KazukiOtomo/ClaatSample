@@ -1,0 +1,23 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2021-06-28T12:02:25Z",
+  "id": "claat-sample",
+  "duration": 0,
+  "title": "Unityで予測変換が出ないときの対処法",
+  "authors": "KazukiOtomo",
+  "summary": "Unityで予測変換が出ないときの対処法です",
+  "source": "1woHgtxOtRnxK69NrsGL1SDFUXiRqWPLVqFwglMffFlw",
+  "theme": "go",
+  "status": [
+    "publishd"
+  ],
+  "category": [
+    "Go"
+  ],
+  "tags": [],
+  "feedback": "https://github.com/KazukiOtomo/ClaatSample",
+  "url": "claat-sample"
+}
